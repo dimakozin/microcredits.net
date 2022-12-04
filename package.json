@@ -1,0 +1,23 @@
+{
+  "name": "microfinances.net",
+  "version": "0.0.1",
+  "description": "Telegram bot for quick search microfinances organizations from register of Central bank of Russia",
+  "scripts": {
+    "bot": "npx ts-node index.ts",
+    "build": "tsc index.ts",
+    "nodemon": "nodemon index.ts"
+  },
+  "keywords": [
+    "Telegram",
+    "bot"
+  ],
+  "author": "dimakozin",
+  "license": "ISC",
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "node-telegram-bot-api": "^0.56.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.19"
+  }
+}
